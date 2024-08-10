@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
-   <div className="h-screen w-screen flex flex-col p-0 bg-neutral-950">
+     <div className="h-screen relative w-screen overflow-hidden flex flex-col p-0 bg-neutral-950">
       <Meteors/>
       <DotPattern
         width={20}
